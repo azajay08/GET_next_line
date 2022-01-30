@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ajones <ajones@student.42.fr>              +#+  +:+       +#+        */
+/*   By: aaronjones <aaronjones@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/26 14:18:36 by ajones            #+#    #+#             */
-/*   Updated: 2022/01/26 14:18:42 by ajones           ###   ########.fr       */
+/*   Updated: 2022/01/30 18:57:31 by aaronjones       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ static int	new_line_create(char **str, char **line, int len)
 /*
 ** The ret_result function is sort of like a final 
 ** decision on what to return. The ret value determines
-** what should be returned. If the ret was lower that 0,
+** what should be returned. If the ret was lower than 0,
 ** there has been an error so (-1) will be returned.
 ** if the ret is 0 and *str is NULL, we return (0), as 
 ** this means that the reading has been done, and it is
