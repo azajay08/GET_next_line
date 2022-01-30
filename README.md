@@ -1,7 +1,7 @@
 # GET_next_line @ Hive Helsinki
 
 The get_next_line function returns a line read from a file descriptor. Like 
-previous projects, the challenge is the limit of exsisting functions allowed
+previous projects, the challenge is the limit of existing functions allowed
 to be used. In this particular project, the only Libc functions that are
 allowed are read, malloc and free. We were able to use functions freely from our
 previosuly made Libft. 
