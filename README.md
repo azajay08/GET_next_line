@@ -11,5 +11,5 @@ when the reading has been completed (0), or if an error has happened respectivel
 (-1).
 
 For bonus points on this project, the get_next_line function must be able to 
-manage multiple file descriptors and only one static variable is to be to 
+manage multiple file descriptors and only one static variable is to be used to 
 obtain bonus points. This function does this.
